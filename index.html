@@ -1066,7 +1066,7 @@ A legit business platform must be registered by the Government <br>
 </button>
   <!--textarea-->
   <div class="formdiv">
-  <!--<form id="contactForm>-->
+  <form id="contactForm">
             <div class="form-group">
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
@@ -1130,7 +1130,7 @@ A legit business platform must be registered by the Government <br>
     }
 }
     
-    ////////////////////////
+    
         let slideIndex = 0;
 
         function showSlide(index) {
@@ -1173,8 +1173,7 @@ A legit business platform must be registered by the Government <br>
             showSlide(slideIndex);
         });
         
-        ///////////////
-        /*form js*/
+
           document.getElementById('contactForm').addEventListener('submit', function(event) {
             event.preventDefault();
             alert('Message sent!');
